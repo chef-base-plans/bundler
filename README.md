@@ -41,6 +41,8 @@ will add the following binaries to the PATH:
 * /bin/bundler
 * /bin/bundler.real
 
+**NOTE:**  the *.real binaries are the original bundler ruby scripts.  For these to run correctly in the hab environment, bundle and bundler wrap some context and point to the original \*.real binaries.
+
 For example:
 
 ```bash
